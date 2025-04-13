@@ -9,7 +9,8 @@
 	"compatibility_date": "2025-04-13",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"routes": ["https://cf-geo-api.yerofey.dev/*"]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
