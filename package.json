@@ -1,14 +1,16 @@
 {
 	"name": "cf-geo",
 	"version": "1.0.0",
+	"description": "A Cloudflare Worker that provides geolocation data based on the request's IP address.",
+	"homepage": "https://github.com/yerofey/cf-geo",
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.7.5",
 		"@cloudflare/workers-types": "^4.20250413.0",
 		"typescript": "^5.5.2",
 		"wrangler": "^4.10.0"
 	},
+	"author": "Yerofey S. <pm@yerofey.dev> (https://github.com/yerofey)",
 	"license": "MIT",
-	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
