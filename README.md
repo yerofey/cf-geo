@@ -10,8 +10,8 @@ This lightweight API is useful for detecting the user's country, IP address, lan
 
 ```json
 {
- "country": "Unknown",
- "ip": "Unknown",
+ "country": "US",
+ "ip": "0.0.0.0",
  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
  "language": "en-US,en;q=0.8"
 }
